@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello world program</title>
+    
+</head>
+<body>
+    <h1></h1>
+    <p id="output"><strong>output</strong> </p>
+    <p id="op"></p>
+
+    <script>
+        //textContent
+        document.getElementById("op").textContent = "I love Javascript";
+    </script>
+
+    <script>
+      let a = document.createElement("em");
+      let b = document.createElement("strong");
+      let c = document.createElement("span");
+
+          a.textContent = "I ";
+          b.textContent = "love ";
+          c.textContent = "javascript";
+          c.style.cssText = "color: red;";
+
+             let d = document.querySelector("#output");
+
+                      d.appendChild(a);
+                       d.appendChild(b);
+                        d.appendChild(c);
+</script>
+<script src="../JS/first.js">
+
+    //linking of Javascript file in html
+</script>
+
+</body>
+</html>
